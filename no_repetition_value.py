@@ -1,2 +1,5 @@
+numbers = []
+
 for num in range(10):
-    print(num)
+    num = int(input('Enter a number: '))
+    numbers.append(num)
