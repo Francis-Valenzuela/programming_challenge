@@ -6,4 +6,4 @@ for num in range(10):
 
 for num in numbers:
     if numbers.count(num) == 1:
-        print(num)
+        print(num, end=' ')
