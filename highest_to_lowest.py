@@ -3,4 +3,4 @@ while True:
 
     if not num.isdigit():
         break
-    
+    num = int(num)
