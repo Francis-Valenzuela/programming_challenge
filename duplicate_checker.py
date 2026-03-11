@@ -1,8 +1,11 @@
 numbers = []
 
 while True:
-    num = int(input('Enter a number: '))
+    num = input('Enter a number: ')
 
+    if not num.isdigit():
+        break
+    
     if num in numbers:
         print('Duplicate number')
     else:
