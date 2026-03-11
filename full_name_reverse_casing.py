@@ -1,2 +1,2 @@
 full_name = input("Enter your full name: ")
-print(full_name)
+print(full_name.swapcase())
