@@ -1,2 +1,5 @@
+
 for num in range(10):
-    print(num)
+    num = int(input("Enter a number: "))
+    if num % 2 == 0:
+
