@@ -1,2 +1,4 @@
 thoughts = input('Enter Sentence: ')
-print(thoughts)
+words = thoughts.split()
+count_thoughts = len(words)
+print(count_thoughts)
