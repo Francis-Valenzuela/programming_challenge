@@ -1,7 +1,11 @@
 numbers = None
 while True:
-    num = int(input('Enter a number: '))
-    if numbers is None or num < numbers:
-        lowest = num
-print(lowest)
+    num = (input('Enter a number: '))
+
+    if not num.isdigit():
+        break
+        
+    num = int(num)
+
+
 
