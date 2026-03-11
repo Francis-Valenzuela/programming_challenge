@@ -7,5 +7,5 @@ while True:
         break
     num = int(num)
     sorted_numbers.append(num)
-    sorted(sorted_numbers)
+    sorted_numbers.sort()
 print(sorted_numbers)
