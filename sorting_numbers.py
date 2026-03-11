@@ -1,4 +1,4 @@
-sorted_numbers =
+sorted_numbers = []
 
 while True:
     num = input('Enter a number: ')
@@ -6,4 +6,6 @@ while True:
     if not num.isdigit():
         break
     num = int(num)
-    
+    sorted_numbers.append(num)
+    sorted(sorted_numbers)
+print(sorted_numbers)
