@@ -5,6 +5,7 @@ while True:
 
     if not num.isdigit():
         break
+    num = int(num)
     
     if num in numbers:
         print('Duplicate number')
