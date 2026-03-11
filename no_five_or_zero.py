@@ -1,2 +1,2 @@
-for i in range(0,101):
-    print(num)
+for num in range(0,101):
+    num = str(num)
