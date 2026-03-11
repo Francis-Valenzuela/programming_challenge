@@ -8,4 +8,8 @@ while True:
     num = int(num)
     total += num
     count += 1
-
+if count > 0:
+    ave = total / count
+    print(ave)
+else:
+    print("Invalid input")
