@@ -1,2 +1,2 @@
 for num in range (10):
-    print(num)
+    num = float(input("Enter a number: "))
