@@ -1,5 +1,5 @@
-value = input("Enter a statement:")
-ending = input("Enter ending:")
+value = input("Enter a statement:").lower
+ending = input("Enter ending:").lower
 
 if value[-len(ending):] == ending:
     print(True)
