@@ -12,3 +12,7 @@ for char in value:
     elif new_word and 'A' <= char <= 'Z':
         result += chr(ord(char) + 32)
         new_word = False
+    else:
+        result += char
+        new_word = False
+print(result)
