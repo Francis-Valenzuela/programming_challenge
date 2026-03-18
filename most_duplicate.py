@@ -6,4 +6,7 @@ while True:
         break
     nums.append(int(value))
 
-    
+if nums:
+    print(max(set(nums), key=nums.count))
+else:
+    print("No numbers")
