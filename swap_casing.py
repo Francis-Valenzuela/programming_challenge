@@ -6,3 +6,6 @@ for char in value:
         result += chr(ord(char) + 32)
     elif 'a' <= char <= 'z':
         result += chr(ord(char) - 32)
+    else:
+        result += char
+print(result)
