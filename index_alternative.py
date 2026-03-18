@@ -6,3 +6,4 @@ for i in range(len(value)):
     if value[i] == letter:
         position = i
         break
+print(position)
