@@ -3,3 +3,5 @@ i = 0
 
 while i < len(value) and value[i] ==  " ":
     i += 1
+
+print("Result"+ value[i:])
