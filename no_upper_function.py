@@ -4,3 +4,6 @@ result = ''
 for char in value:
     if 'a' <= char <= 'z':
         result += chr(ord(char) - 32)
+    else:
+        result += char
+print(result)
